@@ -2,6 +2,12 @@ import React, { Component } from "react"
 import styled from "styled-components"
 import Icons from "./Icons"
 
+const ProjectsContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 0rem;
+`
+
 const H1 = styled.h3`
   font-size: 2rem;
   text-align: left;
@@ -10,7 +16,10 @@ const H1 = styled.h3`
 const Img = styled.img`
   width: 100%;
   max-width: 500px;
-  padding-left: 6rem;
+  transition: 300ms;
+  :hover {
+    opacity: 0.4;
+  }
 `
 
 const ProjectInfo = styled.div`
@@ -20,12 +29,7 @@ const ProjectInfo = styled.div`
 
 const ImgContainer = styled.div`
   width: 60%;
-`
-
-const ProjectsContainer = styled.div`
-  display: flex;
-  flex-direction: row;
-  padding: 1.5rem 0rem;
+  text-align: right;
 `
 
 class Projects extends Component {
