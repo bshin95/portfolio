@@ -1,9 +1,13 @@
 import React, { Component } from "react"
 import styled, { css } from "styled-components"
+import Social from "./Social"
 
+const HeaderContainer = styled.div`
+  padding: 4rem 0rem;
+`
 const H1 = styled.h1`
   display: flex;
-  padding: 0 2rem;
+  padding: 0 6rem;
   margin: 0 auto;
   font-size: 3.5rem;
   font-family: ${(props) => props.theme.font};
@@ -12,7 +16,7 @@ const H1 = styled.h1`
 
 const P = styled.p`
   display: flexbox;
-  padding: 0rem 2rem;
+  padding: 0rem 6rem;
   margin: 0 auto;
   font-size: 1.75rem;
   font-family: ${(props) => props.theme.font};
@@ -32,7 +36,7 @@ const Span = styled.span`
 class Header extends Component {
   render() {
     return (
-      <div className="header-container">
+      <HeaderContainer>
         <H1>Hello World</H1>
         <P>
           My name is <Span>Bryan Shin</Span>.
@@ -40,7 +44,8 @@ class Header extends Component {
         <P>
           I am a <Span>Frontend Developer</Span>.
         </P>
-      </div>
+        <Social />
+      </HeaderContainer>
     )
   }
 }
