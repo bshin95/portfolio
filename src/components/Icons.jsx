@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import styled, { css } from "styled-components"
+// import styled, { css } from "styled-components"
 import javascript from "../images/javascript.svg"
 
 class Icons extends Component {

@@ -1,22 +1,16 @@
 import React, { Component } from "react"
-import styled, { css } from "styled-components"
+import styled from "styled-components"
 import Icons from "./Icons"
-
-// const H1 = styled.h1`
-//   font-family: ${(props) => props.theme.font};
-// `
 
 const H1 = styled.h3`
   font-size: 2rem;
-  text-align: center;
-`
-
-const P = styled.p`
   text-align: left;
 `
 
 const Img = styled.img`
-  width: 75%;
+  width: 100%;
+  max-width: 500px;
+  padding-left: 6rem;
 `
 
 const ProjectInfo = styled.div`

@@ -7,7 +7,7 @@ const HeaderContainer = styled.div`
 `
 const H1 = styled.h1`
   display: flex;
-  padding: 0 6rem;
+  padding: 0 8rem;
   margin: 0 auto;
   font-size: 3.5rem;
   font-family: ${(props) => props.theme.font};
@@ -16,7 +16,7 @@ const H1 = styled.h1`
 
 const P = styled.p`
   display: flexbox;
-  padding: 0rem 6rem;
+  padding: 0rem 8rem;
   margin: 0 auto;
   font-size: 1.75rem;
   font-family: ${(props) => props.theme.font};

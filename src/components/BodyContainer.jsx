@@ -1,10 +1,10 @@
 import React, { Component } from "react"
-import styled, { css } from "styled-components"
+import styled from "styled-components"
 
 import Projects from "./Projects"
 
 const Div = styled.div`
-  padding: 1.5rem 6rem;
+  padding: 1.5rem 8rem;
 `
 
 class BodyContainer extends Component {

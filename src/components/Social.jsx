@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import styled, { css } from "styled-components"
+import styled from "styled-components"
 
 const Img = styled.img`
   width: 100%;
@@ -11,7 +11,7 @@ const SocialContainer = styled.div`
   display: flex;
   flex-direction: row;
   padding-top: 1rem;
-  padding: 0 6rem;
+  padding: 0 8rem;
 `
 
 class Social extends Component {
