@@ -4,6 +4,16 @@ import Social from "./Social"
 
 const HeaderContainer = styled.div`
   padding: 4rem 0rem;
+
+  @media (max-width: ${(props) => props.theme.tablet}) {
+    padding: 0;
+    padding-top: 1rem;
+  }
+
+  @media (max-width: ${(props) => props.theme.mobile}) {
+    padding: 0 1rem;
+    padding-top: 1rem;
+  }
 `
 const H1 = styled.h1`
   display: flex;
@@ -12,6 +22,15 @@ const H1 = styled.h1`
   font-size: 3.5rem;
   font-family: ${(props) => props.theme.font};
   font-weight: bold;
+
+  @media (max-width: ${(props) => props.theme.tablet}) {
+    padding: 0 3rem;
+  }
+
+  @media (max-width: ${(props) => props.theme.mobile}) {
+    padding: 0rem;
+    font-size: 2.5rem;
+  }
 `
 
 const P = styled.p`
@@ -25,12 +44,21 @@ const P = styled.p`
   ${(props) =>
     props.primary &&
     css`
-      color: teal;
+      color: #008080;
     `}
+
+  @media (max-width: ${(props) => props.theme.tablet}){
+    padding: 0 3rem;
+  }
+
+  @media (max-width: ${(props) => props.theme.mobile}){
+    padding: 0;
+    font-size: 1.5rem;
+  }
 `
 
 const Span = styled.span`
-  color: teal;
+  color: #008080;
 `
 
 class Header extends Component {

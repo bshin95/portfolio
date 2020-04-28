@@ -7,6 +7,9 @@ import BodyContainer from "./components/BodyContainer"
 
 const theme = {
   font: "Assistant",
+
+  mobile: "375px",
+  tablet: "768px",
 }
 
 function App() {

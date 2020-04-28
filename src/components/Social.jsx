@@ -12,6 +12,14 @@ const SocialContainer = styled.div`
   flex-direction: row;
   padding-top: 1rem;
   padding: 0 8rem;
+
+  @media (max-width: ${(props) => props.theme.tablet}) {
+    padding: 0 3rem;
+  }
+
+  @media (max-width: ${(props) => props.theme.mobile}) {
+    padding: 0;
+  }
 `
 
 class Social extends Component {
@@ -26,6 +34,9 @@ class Social extends Component {
         </a>
         <a href="mailto:shinbryann@gmail.com">
           <Img src="https://image.flaticon.com/icons/svg/888/888853.svg"></Img>
+        </a>
+        <a href="https://www.docdroid.net/r0bAWwh/resume-pdf">
+          <Img src="https://image.flaticon.com/icons/svg/1810/1810743.svg"></Img>
         </a>
       </SocialContainer>
     )

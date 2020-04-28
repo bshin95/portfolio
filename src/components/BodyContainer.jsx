@@ -5,12 +5,27 @@ import Projects from "./Projects"
 
 const Div = styled.div`
   padding: 1.5rem 8rem;
+
+  @media (max-width: ${(props) => props.theme.tablet}) {
+    padding: 0rem;
+  }
+
+  @media (max-width: ${(props) => props.theme.mobile}) {
+    padding: 1rem;
+  }
 `
 
 class BodyContainer extends Component {
   render() {
     return (
       <Div>
+        <Projects
+          header="React: Portfolio"
+          body="For my past projects, I typically styled my components using vanilla CSS. In efforts to step out of an old habit, I decided to style my portfolio page using styled components."
+          technologies="React, Javascript, HTML, CSS, Styled Components"
+          projectLinkFive
+          projectFive
+        />
         <Projects
           header="React with Ruby on Rails: Airbnb App"
           body="This is an Airbnb-like app that allows users to host their homes as well as book other homes. Users can create their listings on a page that will save to their own database. In the account settings page, users can edit their listings or delete them."
