@@ -71,7 +71,7 @@ class Projects extends Component {
         <a href="https://suspicious-curran-e960de.netlify.app/">
           <Img
             className="project-image"
-            src="https://images.unsplash.com/photo-1535320903710-d993d3d77d29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+            src="https://i.imgur.com/aLaQfm2.png"
             alt="project"
           ></Img>
         </a>
@@ -131,7 +131,7 @@ class Projects extends Component {
         <a href="https://www.bryan-shin.com/">
           <Img
             className="project-image"
-            src="https://i.imgur.com/pR7QlwG.jpg"
+            src="https://i.imgur.com/pNNRHIb.jpg"
             alt="project"
           ></Img>
         </a>
