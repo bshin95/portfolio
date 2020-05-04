@@ -35,7 +35,7 @@ class Social extends Component {
         <a href="mailto:shinbryann@gmail.com">
           <Img src="https://image.flaticon.com/icons/svg/888/888853.svg"></Img>
         </a>
-        <a href="https://www.docdroid.net/r0bAWwh/resume-pdf">
+        <a href="https://www.docdroid.net/5tRqFdZ/resume-2-pdf">
           <Img src="https://image.flaticon.com/icons/svg/1810/1810743.svg"></Img>
         </a>
       </SocialContainer>
