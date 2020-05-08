@@ -29,7 +29,7 @@ class Social extends Component {
         <a href="https://github.com/bshin95">
           <Img src="https://image.flaticon.com/icons/svg/733/733553.svg"></Img>
         </a>
-        <a href="https://www.linkedin.com/in/bryan-shin-b473b013b/">
+        <a href="https://www.linkedin.com/in/bryan-shin95/">
           <Img src="https://image.flaticon.com/icons/svg/179/179330.svg"></Img>
         </a>
         <a href="mailto:shinbryann@gmail.com">
